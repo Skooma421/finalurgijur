@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "220359158588",
+    "project_id": "finalur-b116a",
+    "storage_bucket": "finalur-b116a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220359158588:android:9fda28d6850ea8ab3f4c39",
+        "android_client_info": {
+          "package_name": "com.example.finalurgijur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220359158588-2t5bcolg1e371gp4klom0k6vmcqqidru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA25ANDVA5oognFDrgOnQRIMPDLWQuh7QU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220359158588-2t5bcolg1e371gp4klom0k6vmcqqidru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
