@@ -5,4 +5,5 @@ data class Recipes(
     val imageUrl:String,
     val title:String,
     val name:String,
+
 )

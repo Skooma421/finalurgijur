@@ -1,12 +1,19 @@
 package com.example.finalurgijur
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.finalurgijur.RecipeFragments.AfxazuraActivity
+import com.example.finalurgijur.RecipeFragments.GomiActivity
+import com.example.finalurgijur.RecipeFragments.XachapuriActivity
 
 class RecycleViewRecipesAdapter(private val list: List<Recipes>) :
     RecyclerView.Adapter<RecycleViewRecipesAdapter.ViewHolder>() {
@@ -17,10 +24,28 @@ class RecycleViewRecipesAdapter(private val list: List<Recipes>) :
         val heading: TextView
         val heading2: TextView
 
+        init{
+            itemView.setOnClickListener{v:View->
+                val position: Int = adapterPosition
+                Toast.makeText(itemView.context,"clicked${position + 1}", Toast.LENGTH_SHORT).show()
+
+            }
+        }
+        init{
+            itemView.setOnClickListener {
+                val intent = Intent(itemView.context,XachapuriActivity::class.java)
+                intent.putExtra("xachapuri","xacho")
+                itemView.context.startActivity(intent)
+            }
+        }
+
+
+
         init {
             title_image = itemView.findViewById(R.id.title_image)
             heading = itemView.findViewById(R.id.heading)
             heading2 = itemView.findViewById(R.id.heading2)
+
         }
 
         fun setData(recipes: Recipes) {
@@ -45,6 +70,8 @@ class RecycleViewRecipesAdapter(private val list: List<Recipes>) :
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val recipes = list[position]
         holder.setData(recipes)
+
+
     }
 
     override fun getItemCount() = list.size

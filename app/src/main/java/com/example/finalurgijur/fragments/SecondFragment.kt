@@ -28,10 +28,21 @@ class SecondFragment : Fragment(R.layout.fragment_second) {
         val foodList = ArrayList<Recipes>()
         foodList.add(
             Recipes(
+                14,
+                "https://bellyfull.net/wp-content/uploads/2019/10/Stuffed-Cabbage-Rolls-blog-4.jpg",
+                "ტოლმა",
+                "ამ რეცეპტით ტოლმა გამოდის ნაზი, რბილი და გემრიელი."
+
+            )
+
+
+        )
+        foodList.add(
+            Recipes(
                 1,
-                "https://www.simplyrecipes.com/thmb/8caxM88NgxZjz-T2aeRW3xjhzBg=/2000x1125/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__09__easy-pepperoni-pizza-lead-3-8f256746d649404baa36a44d271329bc.jpg",
-                "პიცა",
-                "ახალბედა მზარეულსაც კი შეუძლია დაეუფლოს პიცის ხელოვნებას ჩვენი მარტივი ნაბიჯ-ნაბიჯ რეცეპტით. ბელისიმო!"
+                "https://shark.iten.ge/wp-content/uploads/2020/11/5.jpg",
+                "აჭარული ხაჭაპური",
+                "ისწავლეთ როგორ გამოცხოთ მსოფლიოში აღიარებული ქართული კერძი."
 
             )
 
@@ -41,7 +52,7 @@ class SecondFragment : Fragment(R.layout.fragment_second) {
             Recipes(
                 2,
                 "https://www.saveur.com/uploads/2018/11/20/VW6J76DATFDQVDRX5YV55WOXME-1024x767.jpg?auto=webp",
-                "ხაჭაპური",
+                "იმერული ხაჭაპური",
                 "ტრადიციული ხაჟაპური. ეს რეცეპტი ძალიან მარტივი მოსამზადებელია და იდეალურია დამწყებთათვის."
 
             )
@@ -116,10 +127,21 @@ class SecondFragment : Fragment(R.layout.fragment_second) {
         )
         foodList.add(
             Recipes(
+                1,
+                "https://gemrielia.ge/media/__sized__/images/26731731_1705357876181221_3586754366985920203_n-crop-c0-5__0-5-450x301-70.jpg",
+                "გებჟალია",
+                "მეგრული სამზარეულოს ერთ-ერთი საუკეთესო კერძი, გებჟალია, ალბათ ყველასთვის საყვარელი საკვებია. "
+
+            )
+
+
+        )
+        foodList.add(
+            Recipes(
                 9,
                 "https://gemrielia.ge/media/images/2012-04-25-20-09_ef790.jpg",
                 "საცივი",
-                "ქართულ საახალწლო სუფრაზე საპიტიო ადგილს ტრადიციულად საცივი იკავებს. შესაბამისად, ამ კერძის მომზადებას ყველა დიასახლისი ამ საუკეთესო რეცეპტით ცდილობს."
+                "ქართულ საახალწლო სუფრაზე საპიტიო ადგილს ტრადიციულად საცივი იკავებს."
 
             )
 
@@ -127,31 +149,21 @@ class SecondFragment : Fragment(R.layout.fragment_second) {
         )
         foodList.add(
             Recipes(
-                10,
-                "https://gastronomia.ge/wp-content/uploads/2021/01/1-1-16.jpg",
-                "ბორში",
-                "ბორშჩი უკრაინული წვნიანია, ფართოდაა გავრცელებული სლავურ ქვეყნებში, ძალიან პოპულარულია საქართველოშიც."
+                17,
+                "https://gastronomia.ge/wp-content/uploads/2019/03/gihlj.jpg",
+                "ბადრიჯანი ნიგვზით",
+                "ნიგვზიანი ბადრიჯანი ნებისმიერ სუფრას დაგიმშვენებთ.",
 
             )
 
 
         )
-        foodList.add(
-            Recipes(
-                11,
-                "https://kulinaria.ge/media/recipe-images/2019/01/P5015f8ba_0.jpg",
-                "გოგრის კრემ-სუპი",
-                "უმარტივესი და უგემრიელესი გოგრის კრემ-სუპის რეცეპტი."
 
-            )
-
-
-        )
         foodList.add(
             Recipes(
                 12,
-                "https://deda.ge/wp-content/uploads/2019/07/mchadi-1.jpg",
-                "მჭადი",
+                "https://i.ytimg.com/vi/0nMYuEfbQEA/maxresdefault.jpg",
+                "სოკო კეცზე",
                 "რეცეპტი ოქროსფერი და ფუმფულა მჭადის მოსამზადებლად."
 
             )
@@ -160,10 +172,22 @@ class SecondFragment : Fragment(R.layout.fragment_second) {
         )
         foodList.add(
             Recipes(
-                1,
-                "https://deda.ge/wp-content/uploads/2019/07/mchadi-1.jpg",
-                "მჭადი",
-                "რეცეპტი ოქროსფერი და ფუმფულა მჭადის მოსამზადებლად."
+                13,
+                "https://bernard.ge/wp-content/uploads/2020/12/qababi.jpg",
+                "ქაბაბი",
+                "მათთვის  ვისაც  ვერ  წარმოუდგენია  რა  მარტივია  ქაბაბის  გაკეთება."
+
+            )
+
+
+        )
+
+        foodList.add(
+            Recipes(
+                15,
+                "https://kulinaria.ge/media/recipe-images/2017/03/shemwvari-kanWi.jpg",
+                "კანჭი",
+                "ამ კერძს გარნირად ყველაზე მეტად ჩაშუშული კომბოსტო ან დაკეპილი კომბოსტოს მწნილი უხდება."
 
             )
 
@@ -171,48 +195,42 @@ class SecondFragment : Fragment(R.layout.fragment_second) {
         )
         foodList.add(
             Recipes(
-                1,
-                "https://deda.ge/wp-content/uploads/2019/07/mchadi-1.jpg",
-                "მჭადი",
-                "რეცეპტი ოქროსფერი და ფუმფულა მჭადის მოსამზადებლად."
+                20,
+                "https://marao.ge/pictures/image45/f1a9d3aa2c8b514b30bf7f6e9d85afa7.jpg",
+                "აფხაზურა",
+                "კერძი, რომელიც ქართული სამზარეულოს ნამდვილი შედევრია!"
 
             )
 
 
         )
+
+
         foodList.add(
             Recipes(
-                1,
-                "https://deda.ge/wp-content/uploads/2019/07/mchadi-1.jpg",
-                "მჭადი",
-                "რეცეპტი ოქროსფერი და ფუმფულა მჭადის მოსამზადებლად."
+                18,
+                "https://deda.ge/wp-content/uploads/2020/12/%E1%83%A5%E1%83%90%E1%83%97%E1%83%9B%E1%83%98%E1%83%A1-%E1%83%A9%E1%83%90%E1%83%AE%E1%83%9D%E1%83%AE%E1%83%91%E1%83%98%E1%83%9A%E1%83%98-600x381.png",
+                "ჩახოხბილი",
+                "გთავაზობთ უძველესი ქართული ტრადიციული კერძის, ჩახოხბილის რეცეპტს."
 
             )
 
 
         )
+
         foodList.add(
             Recipes(
-                1,
-                "https://deda.ge/wp-content/uploads/2019/07/mchadi-1.jpg",
-                "მჭადი",
-                "რეცეპტი ოქროსფერი და ფუმფულა მჭადის მოსამზადებლად."
+                19,
+                "https://gemrielia.ge/media/__sized__/images/kerZi_Aj2AH0U-crop-c0-5__0-5-450x301-70.jpg",
+                "გუფთას წვნიანი",
+                "ეს სუპი ძალიან სწრაფად მზადდება და თავისი  არომატით ბუნებრივ სიმყუდროვეს ქმნის ოჯახში."
 
             )
 
 
         )
-        foodList.add(
-            Recipes(
-                1,
-                "https://deda.ge/wp-content/uploads/2019/07/mchadi-1.jpg",
-                "მჭადი",
-                "რეცეპტი ოქროსფერი და ფუმფულა მჭადის მოსამზადებლად."
-
-            )
 
 
-        )
         return foodList
     }
 }

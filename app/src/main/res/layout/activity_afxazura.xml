@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeFragments.AfxazuraActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-25dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="258dp"
+            android:src="@drawable/afxazura" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="-50dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center"
+            android:text="აფხაზურა"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="ინგრედიენტები"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="ბროწეული - 70 გ,
+ხახვი - 2 თავი,
+ქინძი - 2 კონა,\n
+მწვანე წიწაკა - 1 ცალი,
+კამა - 1/2 კონა,\n
+ოხრახუში - 1 კონა,\n
+ღორის ფარში - 500 გ,
+საქონლის ფარში - 500 გ,\n
+ბადექონი - 100-120 გ,
+ხმელი ქონდარი - 1 ჩ/კ,\n
+დანაყილი ნიორი - 5 კბილი,
+მარილი, წიწაკა - გემოვნებით"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="მომზადების წესი"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="272dp"
+            android:layout_marginTop="-10dp"
+            android:gravity="center"
+            android:text="ფარში:
+ხორცის ფარშს შეურიეთ ნიორი, ქინძი, კამა, წიწაკა, მარილი, ხმელი
+ქონდარი და ბროწეული. ქინძი, ოხრახუში და კამა წვრილად, ხახვი – მსხვილად, წიწაკა კი – თხელ რგოლებად დაჭერით. შეამოწმეთ, რომ ბადექონი გახეული არ იყოს.
+შეხვევა:
+ბადექონი გაშალეთ სამზარეულოს დაფაზე და ზედ ფარში მოათავსეთ. ფრთხილად გადაუკეცეთ გვერდები და ფარში შეახვიეთ. კეცი 20-25 წუთით შედგით წინასწარ გახურებულ ღუმელში. აფხაზურა კარგად უნდა დაიბრაწოს. შემწვარი აფხაზურა გამოიღეთ ღუმელიდან და დაჭრილი ხახვი, მწვანილი და მოაყარეთ წიწაკა და ბროწეული. "
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

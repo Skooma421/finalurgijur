@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeFragments.GebjaliaActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-25dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="217dp"
+            android:src="@drawable/dgeh" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="-50dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="left"
+            android:text="გებჟალია"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="ინგრედიენტები"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="მაწონი - 1 ქილა
+მარილი,
+მწვანე მწარე წიწაკა,
+პიტნა - 1 კონა,
+ჭყინტი ყველი - 1 თავი"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="მომზადების წესი"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="443dp"
+            android:layout_marginTop="-10dp"
+            android:gravity="center"
+            android:text="ფართო  ქვაბით ცეცხლზე შემოდგით წყალი და  ისე გააცხელეთ, რომ ხელი არ დაგწვათ. სანამ წყალი გაცხელდება, ყველი დათალეთ 1 სმ სისქის  ნაჭრებად. ყველის ნაწილი ჩადეთ ქვაბში ისე რომ ძირი დაუფაროთ და დააცადეთ 5 წუთი. შემდეგ  ხის კოვზით მოსინჯეთ, ყველი უნდა დარბილდეს და გაიწელოს.
+სწრაფად გადმოიტანეთ სინზე  და მართკუთხედის ფორმაზე გააბრტყელეთ 1-1,5 სმ სისქეზე. ზემოდან გადაუსვით წინასწარ მომზადებული შიგთავსი და რულეტივით გადაახვიეთ.ცოტა გააგრილეთ და სასურველ ზომაზე დაჭერით.  მზა ნაჭრები ჩააწყვეთ მინის ღრმა ჯამში, ხოლო სინში მოგროვილი წვენი ცალკე ჭურჭელში გადაინახეთ.
+იგივე წესით მოამზადეთ დარჩენილი ჭყინტი ყველი.
+მაწონი გათქვიფეთ და ნელ-ნელა ჩაუმატეთ ცალკე მოგროვილი წვენი (ცოტა თხელი გააკეთეთ, რადგან ყველი სითხეს შეიწოვს). შეგიძლიათ შიგთავსის 1-2 კოვზიც დაამატოთ. ეს მასა მოასხით ყველს და შედგით მაცივარში 1 საათით.
+
+შიგთავსი ასე უნდა მოამზადოთ: პიტნა, მწვანე წიწაკა და მარილი დანაყეთ ან დააბლენდერეთ."
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

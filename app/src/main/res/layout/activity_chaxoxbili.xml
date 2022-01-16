@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeFragments.ChaxoxbiliActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-25dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="274dp"
+            android:src="@drawable/chaxoxbili" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-50dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="ჩახოხბილი"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="ინგრედიენტები"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="ქათამი- 1 ცალი,
+ერბო ან კარაქი - ½ ჩაის ჭიქა,
+პომიდორი- 500 გრ,
+დაფნის ფოთოლი- 2 ცალი,
+ხახვი- 400 გრ,
+ქინძი- 3 ძირი,
+რეჰანი- 2 ძირი,
+მარილი- გემოვნებით"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="მომზადების წესი"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="242dp"
+            android:layout_marginTop="-10dp"
+            android:gravity="center"
+            android:text="ქათამი დაჭერით, ჩააწყვეთ ქვაბში და მოშუშეთ საშუალო ცეცხლზე. როდესაც წყალი ჩაშრება, მოაყარეთ წვრილად დაჭრილი ხახვი, დაუმატეთ კარაქი ან ერბო და მოხრაკეთ. დაამატეთ დაფნის ფოთოლი, თან დროდადრო კოვზით ურიეთ. დაასხით 1 ჭიქა ადუღებული წყალი, კანგაცლილი მოშუშული  პომიდორი და ადუღეთ, ვიდრე ქათმის ხორცი არ მოიხარშება. შემდეგ დაუმატეთ დანაყილი წიწაკა, წვრილად დაჭრილი ქინძი და რეჰანი."
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

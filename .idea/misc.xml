@@ -6,18 +6,34 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.378125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/drawable/custombutton.xml" value="0.3828125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/drawable/pica.xml" value="0.3828125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_afxazura.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_badrijani.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_chaxoxbili.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_gebjalia.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_gomi.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_kanchi.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_kubdari.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_lobiani.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_login.xml" value="0.33" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_pass_change.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_mchadi.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_pass_change.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_password_reset.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_perashki.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_profile.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_qababi.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_sacivi.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_soko.xml" value="0.34791666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_xinkali.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/fragment_first.xml" value="0.28940217391304346" />
         <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/fragment_home.xml" value="0.33" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/fragment_recipe.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/fragment_recipe_one.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/fragment_second.xml" value="0.2" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/list_item.xml" value="0.14457831325301204" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/patent_main_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/list_item.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/patent_main_activity.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/menu/bottom_navigation_view.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/menu/menu_resource_file.xml" value="0.36666666666666664" />
       </map>

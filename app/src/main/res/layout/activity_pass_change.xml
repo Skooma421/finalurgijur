@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PassChangeActivity"
-    android:background="#FFF8E6FA">
+    android:background="#FFEAB3B3"
+    tools:context=".PassChangeActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -47,6 +47,7 @@
             android:id="@+id/buttonChangePass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#B55252"
             android:text="reset password" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

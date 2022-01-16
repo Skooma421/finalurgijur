@@ -5,15 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ProfileActivity"
-    android:background="#FFF8E6FA">
+    android:background="@drawable/pizako">
 
     <LinearLayout
+
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="168dp"
+        android:layout_marginBottom="68dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,26 +25,15 @@
             android:id="@+id/passReset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#B55252"
             android:text="Reset password" />
 
         <Button
             android:id="@+id/logOutButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#B55252"
             android:text="log out" />
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="170dp"
-        android:layout_marginTop="306dp"
-        android:layout_marginEnd="184dp"
-        android:layout_marginBottom="142dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

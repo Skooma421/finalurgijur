@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeFragments.GomiActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-25dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            android:src="@drawable/gujh" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="-45dp"
+            android:gravity="right"
+            android:text="ღომი"
+            android:textStyle="bold"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="ინგრედიენტები"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="სულგუნი - 500 გ
+სიმინდის ფქვილი - 300 გ
+სიმინდის ღერღილი - 1 კგ
+წყალი"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="მომზადების წესი"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="388dp"
+            android:layout_marginTop="-10dp"
+            android:gravity="center"
+            android:text="ღერღილი კარგად გარეცხეთ გამდინარე წყალში.
+გარეცხილი ღერღილი ქვაბში ჩაყარეთ და იმდენი წყალი დაასხით,რომ კარგად დაფაროს. წყლის ზედაპირზე მოქცეული ღერღილი მოაცილეთ.ქვაბი ცეცხლზე დადგით და საშუალო ტემპერატურაზე ხარშეთ. მზა ღომს ფაფუკი კონსისტენცია უნდა ჰქონდეს. თუ გამაგრდა, ცოტა მდუღარე წყალი შეურიეთ და აზილეთ.როცა ერთიანი,სქელი მასა გახდება,სიმინდის ფქვილი დაუმატეთ და ჩაზილეთ.
+განაგრძეთ ხარშვა კიდევ ცოტა ხანს, რათა ფქვილიც მოიხარშოს.ღომი შეგიძლიათ პიტნაში არეულ ყველთან, ფუჩხოლიასთან ერთად მიირთვათ. 600 გ ყველი დაფხვენით, მარილთან ერთად დანაყილი პიტნა შეურიეთ და პატარა გუნდები გააკეთეთ. ღომში ჩადეთ და პიტნის ნორჩი ფოთლებით მორთეთ.
+მზა ღომი სველი ჩოგნით თეფშზე ამოიღეთ, ყველი ჩააწყვეთ და სუფრასთან ისე მიიტანეთ."
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

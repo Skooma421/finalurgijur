@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeFragments.SaciviActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-25dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:src="@drawable/sacivi" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="-45dp"
+            android:gravity="right"
+            android:textStyle="bold"
+            android:text="საცივი"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="ინგრედიენტები"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="ნიორი - 4-5 კბილი,
+მიხაკი - 2 ბუტკო,
+ხმელი ქინძი, დაფქული - 1 ჩ.კ,
+ყვითელი ყვავილი - 1 ს.კ,
+უცხო სუნელი - 2 ს.კ,
+ხახვი - 2 თავი,
+ნიგოზი - 600 გ,
+ინდაური - 1 ცალი,
+დარიჩინი - 1 ჩ.კ,
+წითელი წიწაკა, დაფქული,
+მარილი,
+ძმარი - 1 ს.კ,
+ფქვილი - 1 ს.კ"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="მომზადების წესი"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="408dp"
+            android:layout_marginTop="-5dp"
+            android:gravity="center"
+            android:text="გასუფთავებული, გარეცხილი ინდაური ქვაბში მოვათავსოთ, დავასხათ წყალი, დავდგათ ცეცხლზე და ნახევრად მოვხარშოთ.
+ინდაური ამოვიღოთ წვენიდან, დავდოთ თუნუქის ფურცელზე და შევდგათ აირღუმელში შესაწვავად.
+ბულიონს მოვხადოთ ცხიმი და მასში მოვშუშოთ წვრილად დაჭრილი ან ხორცსაკეპ მანქანაში გატარებული ხახვი.
+შუშვის დროს დაუმატოთ ბულიონიდან მოხდილი ცხიმი და თან ვურიოთ, რომ არ დაიწვეს. დავამატოთ ფქვილი და კარგად ავურიოთ. როცა ოდნავ ვარდისფერს მიიღებს ჩავასხათ ბულიონი.
+ნიგოზი ხორცსაკეპ მანქანაში ორჯერ გავატაროთ ყვითელი ყვავილი, მარილი და  ნიორი დავნაყოთ, ავურიოთ ნიგოზში და ხელით კარგად ვსრისოთ, სანამ საკმაო რაოდენობის ზეთს არ გამოვხდით.
+ცალკე დავნაყოთ ნიგოზთან ერთად უცხო სუნელი, დარიჩინი, მიხაკი, ქინძი და წიწაკა.
+ყველაფერი ეს გავხსნათ თბილ ბულიონში, კარგად მოვურიოთ, გავატაროთ საცერში ან დავაბლენდეროთ და დავდგათ ნელ ცეცხლზე მოსახარშად.
+ადუღებამდე ჩავაწყოთ შიგ ნაჭრებად დაჭრილი შემწვარი ინდაური და წამოდუღებისთანავე გადმოვდგათ ცეცხლიდან. ჩავამატოთ ძმარი.
+როცა მზად იქნება, საცივი ამოვიღოთ ლანგარზე და სუფრაზე მიტანის წინ მოვასხათ ნიგვზიდან გამოხდილი ზეთი."
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeFragments.XinkaliActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:src="@drawable/sokoaashakvi" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="-45dp"
+            android:text="ხინკალი"
+            android:gravity="right"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:text="ინგრედიენტები"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginTop="3dp"
+            android:text="
+წყალი - გასათხელებლად,
+ძირა - გემოვნებით\n
+წითელი წიწაკა, დაფქული
+მარილი
+ხახვი - 3 თავი,\n
+შერეული ფარში - 1 კგ\n
+მარილი,
+წყალი - 500 მლ,
+ფქვილი - 1 კგ
+"
+            android:layout_marginStart="10sp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="მომზადების წესი"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:text="ფქვილს დავამატოთ მარილი, დავასხათ წყალი და მოვზილოთ . ცომი რომ შეიკვრება, გადმოვიტანოთ მაგიდაზე და ხელის გულებით დიდხანს ვზილოთ სანამ კარგი მკვრივი, ელასტიური მასა არ გახდება.დავასვენოთ ნახევარი საათი და ამასობაში მოვამზადოთ ფარში.
+ფარშს დავამატოთ მარილი, წიწაკა, გატარებული  ხახვი, ცოტა ძირა და გავათხელოთ წყლით, მაგრამ ძალიან წყალწყალასაც ნუ გავაკეთებთ.ცომი გავაბრტყელოთ ნახევარ სანტიმეტრზე, ამოვჭრათ რგოლები, რომელსაც კიდევ გავაბრტყელებთ თხლად. ან შეგვიძლია პირდაპირ ძალიან თხლად გავაბრტყელოთ ცომი და უფრო დიდი რგოლები ამოვჭრათ.
+ცომის შუაში დავდოტ თითო კოვზი ფარში, ცომს მოვუკრათ თავი, ისე რომ თანაბარი ნაოჭები გამოგვივიდეს. გადავიტანოთ მზა ხინკლები ფქვილიან დაფაზე.  ეს პროცესი სწრაფად უნდა გავაკეთოთ, რათა ფარშის წვენმა ცომი ძალიან არ დაასველოს და ხინკალი არ გაიხსნას.
+კეთებისას, ფარშს პერიოდულად ვურიოთ, რომ ხორცი და წვენი თანაბრად განაწილდეს. პარალელურად , ცეცხლზე წყალი უნდა დუღდეს. ჩავამატოთ წყალს მარილი, ჩავყაროთ ხინკლები, ხის კოვზით ფრთხილად მოვურიოთ რომ არ მიეკრას და დაველოდოთ წამოდუღებას. მოხარშული ხინკალი წყლის ზედაპირზე ამოტივტივდება და გაიბურთება." />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

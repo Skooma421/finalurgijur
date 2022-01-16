@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.finalurgijur">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,51 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Finalurgijur">
+        android:theme="@style/Theme.Finalurgijur"
+        >
+
+        <activity
+            android:name=".RecipeFragments.ChaxoxbiliActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecipeFragments.GebjaliaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecipeFragments.AfxazuraActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecipeFragments.KanchiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecipeFragments.BadrijaniActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecipeFragments.QababiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecipeFragments.SokoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecipeFragments.SaciviActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecipeFragments.GomiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecipeFragments.MchadiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecipeFragments.KubdariActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecipeFragments.LobianiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecipeFragments.PerashkiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecipeFragments.XinkaliActivity"
+            android:exported="true" />
         <activity
             android:name=".PasswordResetActivity"
             android:exported="true" />

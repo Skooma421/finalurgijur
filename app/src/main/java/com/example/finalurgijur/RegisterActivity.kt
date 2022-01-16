@@ -17,6 +17,7 @@ class RegisterActivity : AppCompatActivity() {
         setContentView(R.layout.activity_register)
         init()
         registerListener()
+
     }
 
     private fun init() {
@@ -27,24 +28,36 @@ class RegisterActivity : AppCompatActivity() {
 
     private fun registerListener() {
 
-            buttonRegister.setOnClickListener {
-                val email = editTextEmail.text.toString()
-                val password = editTextPassword.text.toString()
-                if (email.isEmpty() || password.isEmpty()) {
-                    Toast.makeText(this, "Empty!", Toast.LENGTH_SHORT).show()
-                    return@setOnClickListener
-                }
-                FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, password)
-                    .addOnCompleteListener { task ->
-                        if (task.isSuccessful) {
-                            startActivity(Intent(this, RegisterActivity::class.java))
-                            finish()
-                        } else {
-                            Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
-                        }
+        buttonRegister.setOnClickListener {
+            val email = editTextEmail.text.toString()
+            val password = editTextPassword.text.toString()
+            if (email.isEmpty() || password.isEmpty()) {
+                Toast.makeText(this, "Empty!", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+            FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, password)
+                .addOnCompleteListener { task ->
+                    if (task.isSuccessful) {
+                        startActivity(Intent(this, RegisterActivity::class.java))
+                        finish()
+                    } else {
+                        Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
                     }
+                }
 
+        }
+    }
+    private fun passwordListener() {
+        buttonRegister.setOnClickListener {
+            val email = editTextEmail.text.toString()
+            val password = editTextPassword.text.toString()
+            if (password.length<6){
+                Toast.makeText(this,"Password too short", Toast.LENGTH_SHORT).show()
             }
         }
-
     }
+
+
+
+
+}

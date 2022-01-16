@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeFragments.LobianiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-25dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            android:src="@drawable/vaxxxkobio" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="-45dp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="ლობიანი"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="ინგრედიენტები"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="წითელი ლობიო - 400 - 500 გ
+გულსართისთვის\n
+შაქარი - 1 ჩ.კ
+ზეთი - 2-3 ს.კ
+მარილი
+ფქვილი - 1 კგ
+მშრალი საფუარი - 2 ს.კ
+კვერცხი - 1
+წყალი - 2 ჭ\n
+ლორი - 250 გ
+მარილი და წიწაკა"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="მომზადების წესი"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="356dp"
+            android:gravity="center"
+            android:text="ლობიო მოვხარშოთ ლორთან ერთად, შემდეგ გადავწუროთ, ლობიოს სურვილისამებრ გავაცალოთ კანი (შეგვიძლია გამოვიყენოთ კანიანადაც), დავუმატოთ წვრილად დაჭრილი ლორი და შევაზაოთ მარილითა და პილპილით. მომზადებული გულსართი კარგად ჩავზილოთ.
+2 ჭიქა ფქვილში ავურიოთ საფუარი, 1 ჩ.კ. შაქარი და დავასხათ თბილი წყალი. მასას დავამატოთ გათქვეფილი კვერცხი, ფქვილი და ზეთი. მოვზილოთ ნაზი ცომი და დავდგათ ასაფუებლად. ცომი დავყოთ 5 ნაწილად, გადავანაწილოთ გულსართი და გამოვაცხოთ ხაჭაპურივით. გამომცხვარ ლობიანებს ზემოდან წავუსვათ ლორის პატარა ქონიანი ნაჭერი."
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
