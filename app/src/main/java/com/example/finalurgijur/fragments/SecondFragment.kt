@@ -29,9 +29,9 @@ class SecondFragment : Fragment(R.layout.fragment_second) {
         foodList.add(
             Recipes(
                 1,
-                "https://www.simplyrecipes.com/thmb/8caxM88NgxZjz-T2aeRW3xjhzBg=/2000x1125/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__09__easy-pepperoni-pizza-lead-3-8f256746d649404baa36a44d271329bc.jpg",
-                "პიცა",
-                "ახალბედა მზარეულსაც კი შეუძლია დაეუფლოს პიცის ხელოვნებას ჩვენი მარტივი ნაბიჯ-ნაბიჯ რეცეპტით. ბელისიმო!"
+                "https://shark.iten.ge/wp-content/uploads/2020/11/5.jpg",
+                "აჭარული ხაჭაპური",
+                "ისწავლეთ როგორ გამოცხოთ მსოფლიოში აღიარებული ქართული კერძი."
 
             )
 
