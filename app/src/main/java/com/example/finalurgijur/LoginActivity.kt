@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import com.example.finalurgijur.fragments.HomeFragment
 import com.google.firebase.auth.FirebaseAuth
 
 class LoginActivity : AppCompatActivity() {
@@ -27,6 +28,11 @@ class LoginActivity : AppCompatActivity() {
         val buttonRegister = findViewById<Button>(R.id.buttonRegister)
         buttonRegister.setOnClickListener {
             val Intent = Intent(this, RegisterActivity::class.java)
+            startActivity(Intent)
+        }
+        val passReset = findViewById<Button>(R.id.passReset)
+        passReset.setOnClickListener {
+            val Intent = Intent(this, PasswordResetActivity::class.java)
             startActivity(Intent)
         }
 
@@ -54,7 +60,7 @@ class LoginActivity : AppCompatActivity() {
             FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener { task ->
                     if (task.isSuccessful) {
-                        startActivity(Intent(this, ProfileActivity::class.java))
+                        startActivity(Intent(this, Patenti::class.java))
                         finish()
                     } else {
                         Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()

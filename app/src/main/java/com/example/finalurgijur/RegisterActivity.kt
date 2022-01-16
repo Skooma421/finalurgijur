@@ -17,11 +17,6 @@ class RegisterActivity : AppCompatActivity() {
         setContentView(R.layout.activity_register)
         init()
         registerListener()
-        val buttonRegister = findViewById<Button>(R.id.buttonRegister)
-        buttonRegister.setOnClickListener {
-            val Intent = Intent(this,LoginActivity::class.java)
-            startActivity(Intent)
-        }
     }
 
     private fun init() {
@@ -31,7 +26,7 @@ class RegisterActivity : AppCompatActivity() {
     }
 
     private fun registerListener() {
-        buttonRegister.setOnClickListener {
+
             buttonRegister.setOnClickListener {
                 val email = editTextEmail.text.toString()
                 val password = editTextPassword.text.toString()
@@ -53,4 +48,3 @@ class RegisterActivity : AppCompatActivity() {
         }
 
     }
-}

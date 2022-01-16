@@ -3,15 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.378125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/drawable/custombutton.xml" value="0.3828125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/drawable/pica.xml" value="0.3828125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_login.xml" value="0.33" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_pass_change.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_password_reset.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_profile.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/fragment_first.xml" value="0.28940217391304346" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/fragment_second.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/fragment_second.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/list_item.xml" value="0.14457831325301204" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/layout/patent_main_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/menu/bottom_navigation_view.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/finalurgijur/app/src/main/res/menu/menu_resource_file.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
@@ -20,5 +28,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>
