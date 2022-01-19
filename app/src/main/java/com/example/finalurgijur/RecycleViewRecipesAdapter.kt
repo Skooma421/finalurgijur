@@ -24,21 +24,16 @@ class RecycleViewRecipesAdapter(private val list: List<Recipes>) :
         val heading: TextView
         val heading2: TextView
 
-        init{
-            itemView.setOnClickListener{v:View->
+        init {
+            itemView.setOnClickListener { v: View ->
                 val position: Int = adapterPosition
-                Toast.makeText(itemView.context,"clicked${position + 1}", Toast.LENGTH_SHORT).show()
+
+                Toast.makeText(itemView.context, "რეცეპტი ${position + 1}", Toast.LENGTH_SHORT)
+                    .show()
 
             }
-        }
-        init{
-            itemView.setOnClickListener {
-                val intent = Intent(itemView.context,XachapuriActivity::class.java)
-                intent.putExtra("xachapuri","xacho")
-                itemView.context.startActivity(intent)
-            }
-        }
 
+        }
 
 
         init {
@@ -52,7 +47,7 @@ class RecycleViewRecipesAdapter(private val list: List<Recipes>) :
             Glide.with(itemView)
                 .load(recipes.imageUrl)
                 .into(title_image)
-            heading.text= recipes.title
+            heading.text = recipes.title
             heading2.text = recipes.name
 
         }

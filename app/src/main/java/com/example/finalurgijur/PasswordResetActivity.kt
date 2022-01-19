@@ -40,7 +40,7 @@ class PasswordResetActivity : AppCompatActivity() {
                 Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
-            FirebaseAuth.getInstance().sendPasswordResetEmail(email)
+                    FirebaseAuth.getInstance().sendPasswordResetEmail(email)
                 .addOnCompleteListener { task ->
                     if(task.isSuccessful){
                         startActivity(Intent(this, LoginActivity::class.java))

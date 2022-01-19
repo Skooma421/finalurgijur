@@ -7,6 +7,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.finalurgijur.R
+import com.example.finalurgijur.RecipeClickListener
 import com.example.finalurgijur.Recipes
 import com.example.finalurgijur.RecycleViewRecipesAdapter
 
@@ -19,10 +20,15 @@ class SecondFragment : Fragment(R.layout.fragment_second) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         recyclerView = view.findViewById(R.id.recyclerView)
+
         recyclerViewRecipesAdapter = RecycleViewRecipesAdapter(getData())
         recyclerView.layoutManager = LinearLayoutManager(activity)
         recyclerView.adapter = recyclerViewRecipesAdapter
+
+
     }
+
+
 
     private fun getData(): List<Recipes> {
         val foodList = ArrayList<Recipes>()
@@ -154,7 +160,7 @@ class SecondFragment : Fragment(R.layout.fragment_second) {
                 "ბადრიჯანი ნიგვზით",
                 "ნიგვზიანი ბადრიჯანი ნებისმიერ სუფრას დაგიმშვენებთ.",
 
-            )
+                )
 
 
         )
@@ -233,4 +239,6 @@ class SecondFragment : Fragment(R.layout.fragment_second) {
 
         return foodList
     }
+
+
 }
